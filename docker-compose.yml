@@ -1,0 +1,6 @@
+services:
+  webapi:
+    build: WebApi
+    restart: always
+    ports:
+      - 5001:5001
